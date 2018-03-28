@@ -3,10 +3,10 @@ require 'pry' #pry is a VERY useful gem for debugging. By requiring it here, we 
 
 class ApplicationController < Sinatra::Base
 
-  configure do
-    set :public_folder, 'public'
-    set :views, 'app/views'
-  end
+#   configure do
+#     set :public_folder, 'public'
+#     set :views, 'app/views'
+#   end
   
    get '/' do
     erb :index
