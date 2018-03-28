@@ -1,2 +1,3 @@
-require 'sinatra/activerecord/rake'
-require './config/environment'
+require File.expand_path('../config/application', __FILE__)
+
+Rails.application.load_tasks
